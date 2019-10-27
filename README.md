@@ -1,13 +1,26 @@
 # Boston_House_Prices_Analysis
 Project for the module Machine Learning &amp; Statistics.
 
+## Content
+Using a Jupyter Notebook I analyze the Boston House Prices dataset. It is made up of three sections, first I __describe__ the Boston House Prices with descriptive statistics and plots, then I __analyse__ whether there is a significant difference in median house prices between houses that are along the Charles river and those that aren’t. And finally I create a neural network that can __predict__ the median house price based on the other variables in the dataset.
+
+
+## Getting started
+### Installing
+Since I have used packages like *scipy*, *keras* and *Jupyter* I recommend you to install *Anaconda* to make sure that you will be able of running the code without any kind of issues. If you needed it, you can download it [here](https://www.anaconda.com/download/)
+This repository is Public so its' available to download and execute.
+
+	
+## Introduction
 __Dataset Characteristics__:
+
+This data was collected in 1978 and each entry represents aggregate information about 14 features of homes from various suburbs located in Boston for the purpose of discovering whether or not clean air influenced the value of houses in that area. Then, each of the 506 rows describes a Boston town or suburb with 13 attributes (features) with a target column (price).
 
 * Number of Instances: 
   506
 
 * Number of Attributes:
-  13 numeric/categorical predictive. Median Value (attribute 14) is usually the target.
+  13 numeric/categorical predictive and the price median value (the target).
 
 * Attribute Information (in order):
   - CRIM per capita crime rate by town
@@ -31,14 +44,6 @@ __Dataset Characteristics__:
 * Creator:	
 Harrison, D. and Rubinfeld, D.L.
 
-## Getting started
-### Installing
-Since I have used packages like *scipy*, *keras* and *Jupyter* I recommend you to install *Anaconda* to make sure that you will be able of running the code without any kind of issues. If you needed it, you can download it [here](https://www.anaconda.com/download/)
-This repository is Public so its' available to download and execute.
-
-
-## Content
-Using a Jupyter Notebook I analyze the Boston House Prices dataset. It is made up of three sections, first I __describe__ the Boston House Prices with descriptive statistics and plots, then I __analyse__ whether there is a significant difference in median house prices between houses that are along the Charles river and those that aren’t. And finally I create a neural network that can __predict__ the median house price based on the other variables in the dataset.
 
 ## Summary
 
